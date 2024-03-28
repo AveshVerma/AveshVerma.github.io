@@ -29,3 +29,5 @@ jobs:
           git commit -m "Automated sitemap update" sitemap.xml
           git push
         fi
+permissions:
+  contents: write
